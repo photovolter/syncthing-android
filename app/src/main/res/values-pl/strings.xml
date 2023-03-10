@@ -17,8 +17,8 @@
 
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
-    <string name="introduction">Introduction</string>
-    <string name="welcome_text">Syncthing jest open-source'ową aplikacją do sychronizacji plików. Aby współdzielić dane z innymi urządzeniami, musisz dodać ich unikalne identyfikatory do listy urządzeń. Następnie będziesz mógł wybrać foldery do współdzielenia z konkretnym urządzeniami.
+    <string name="introduction">Informacje wstępne</string>
+    <string name="welcome_text">Syncthing jest wolną i otwartą aplikacją do sychronizacji plików. Aby współdzielić dane z innymi urządzeniami, musisz dodać ich unikalne identyfikatory do listy urządzeń. Następnie będziesz mógł wybrać foldery do współdzielenia z konkretnym urządzeniami.
 Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
     <!-- Slide "Storage Permission" -->
@@ -187,10 +187,10 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- DeviceListFragment -->
 
     <!-- Devices tab title -->
-    <string name="devices_fragment_title">Devices</string>
+    <string name="devices_fragment_title">Urządzenia</string>
 
     <!-- Shown if no devices are configured in add folder dialog  -->
-    <string name="devices_list_empty">No devices configured. Tap to add a new device.</string>
+    <string name="devices_list_empty">Brak skonfigurowanych urządzeń. Kliknij, żeby dodać nowe urządzenie.</string>
 
     <!-- Shown in ListView if no devices are configured -->
     <string name="no_devices_configured">Nie skonfigurowano żadnego urządzenia.\n Rozpocznij dodawanie urządzenia.</string>
@@ -258,9 +258,9 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="announce_server">Serwer ogłoszeniowy</string>
 
     <!-- Title for uptime status -->
-    <string name="uptime">Uptime</string>
+    <string name="uptime">Czas działania</string>
 
-    <string name="restart">Restart</string>
+    <string name="restart">Uruchom ponownie</string>
 
     <string name="dialog_confirm_restart">Czy chcesz ponownie uruchomić Syncthing?</string>
 
@@ -378,7 +378,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- Setting title -->
     <string name="untrusted_device">Niezaufane Urządzenie</string>
 
-    <string name="untrusted_device_explanation">Wszystkie foldery współdzielone z tym urządzeniem muszą być zabezpieczone hasłem, ponieważ wszystkie wysyłane dane są nieodczytywalne bez podania hasła.</string>
+    <string name="untrusted_device_explanation">Wszystkie foldery współdzielone z tym urządzeniem muszą być zabezpieczone hasłem, tak aby całość przesyłanych danych nie była do odczytu bez podania danego hasła.</string>
 
     <!-- ActionBar item -->
     <string name="delete_device">Usuń urządzenie</string>
@@ -514,88 +514,89 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="run_on_roaming_title">Korzystaj podczas roamingu</string>
     <string name="run_on_roaming_summary">Pozwól, by Syncthing używał mobilnej transmisji danych w roamingu. (!) Prosimy o informację zwrotną na GitHubie, jeżeli ta funkcjonalność działa prawidłowo.</string>
 
-    <string name="run_on_wifi_title">Run on Wi-Fi</string>
-    <string name="run_on_wifi_summary">Run when device is connected to a Wi-Fi or ethernet network.</string>
+    <string name="run_on_wifi_title">Uruchom na Wi-Fi</string>
+    <string name="run_on_wifi_summary">Uruchom, gdy urządzenie jest połączone z siecią Wi-Fi.</string>
 
-    <string name="run_on_metered_wifi_title">Run on metered Wi-Fi</string>
-    <string name="run_on_metered_wifi_summary">Run when device is connected to a metered Wi-Fi network e.g. a hotspot or tethered network. Attention: This can consume large portion of your data plan if you sync a lot of data.</string>
+    <string name="run_on_metered_wifi_title">Uruchom na taryfowych sieciach Wi-Fi</string>
+    <string name="run_on_metered_wifi_summary">Działaj, gdy urządzenie korzysta z taryfowej sieci Wi-Fi, np. hotspotu lub udostępnionego połączenia. Uwaga: Może to skutkować znacznym zużyciem transferu, jeżeli synchronizujesz dużo danych.</string>
 
-    <string name="run_on_whitelisted_wifi_title">Run on specified Wi-Fi networks</string>
-    <string name="specify_wifi_ssid_whitelist">Select Wi-Fi networks</string>
-    <string name="run_on_whitelisted_wifi_networks">Selected Wi-Fi networks: %1$s</string>
-    <string name="wifi_ssid_whitelist_empty">No Wi-Fi networks specified. Click to specify networks.</string>
+    <string name="run_on_whitelisted_wifi_title">Uruchom na wybranych sieciach Wi-Fi</string>
+    <string name="specify_wifi_ssid_whitelist">Wybierz sieci Wi-Fi</string>
+    <string name="run_on_whitelisted_wifi_networks">Wybrane sieci Wi-Fi: %1$s</string>
+    <string name="wifi_ssid_whitelist_empty">Nie wybrano żadnych sieci Wi-Fi. Kliknij, by wybrać sieci.</string>
 
-    <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Proszę włącz WiFi dla wybranych sieci</string>
-    <string name="sync_only_wifi_ssids_wifi_turn_on_location">Please turn on location to select networks.</string>
 
-    <string name="sync_only_wifi_ssids_need_to_grant_location_permission">You need to grant LOCATION permission to use this feature.</string>
+    <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Proszę włącz Wi-Fi dla wybranych sieci</string>
+    <string name="sync_only_wifi_ssids_wifi_turn_on_location">Proszę włącz lokalizację, by wybrać sieci.</string>
 
-    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_title">Permission required</string>
-    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Starting with Android 8.1, location access is required to be able to read the Wi-Fi\'s name. You can use this feature only if you grant this permission.</string>
+    <string name="sync_only_wifi_ssids_need_to_grant_location_permission">Musisz przyznać uprawnienia do odczytu lokalizacji, by używać tej funkcjonalności.</string>
 
-    <string name="power_source_title">Run when device is powered by</string>
+    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_title">Wymagane przyznanie uprawnienia</string>
+    <string name="sync_only_wifi_ssids_location_permission_rejected_dialog_content">Poczynając od Androida 8.1, dostęp do lokalizacji jest wymagany, by odczytać nazwę sieci Wi-Fi. Możesz używać tej funkcjonalności tylko jeżeli przyznasz to uprawnienie.</string>
+
+    <string name="power_source_title">Uruchom, gdy urządzenie jest zasilane przez</string>
 
     <string-array name="power_source_entries">
-        <item>AC and battery power.</item>
-        <item>AC power.</item>
-        <item>Battery power.</item>
+        <item>Zasilanie sieciowe i bateryjne.</item>
+        <item>Zasilanie sieciowe.</item>
+        <item>Zasilanie bateryjne.</item>
     </string-array>
 
     <string name="respect_battery_saving_title">Uszanuj ustawienia oszczędzania baterii systemu Android</string>
-    <string name="respect_battery_saving_summary">Disable Syncthing if battery saving is active.</string>
+    <string name="respect_battery_saving_summary">Wyłącz Syncthing, gdy aktywne jest oszczędzanie energii.</string>
 
-    <string name="respect_master_sync_title">Respect Android \'Auto-sync data\' setting</string>
-    <string name="respect_master_sync_summary">Disable Syncthing when the quick settings tile \'Auto-sync data\' is toggled off.</string>
+    <string name="respect_master_sync_title">Uszanuj ustawienie \"automatycznej synchronizacji\"</string>
+    <string name="respect_master_sync_summary">Wyłącz Syncthing, gdy systemowe ustawienie \"automatycznej synchronizacji\" jest włączone.</string>
 
-    <string name="run_in_flight_mode_title">Run without network connection</string>
-    <string name="run_in_flight_mode_summary">Enabling this option will cause Syncthing to run even when you\'re offline. Enable if your device has problems detecting manual Wi-Fi connections during flight mode.</string>
+    <string name="run_in_flight_mode_title">Uruchom, gdy urządzenie jest w trybie samolotowym</string>
+    <string name="run_in_flight_mode_summary">Włącz, gdy Twoje urządzenie ma trudności z ręcznym wykryciem sieci Wi-Fi w trybie samolotowym.</string>
 
-    <string name="run_on_time_schedule_title">Run according to time schedule</string>
-    <string name="run_on_time_schedule_summary">Enabling this option will attempt to sync for a configured duration if run conditions are fulfilled and the last sync was more than 1 hour ago. This can save a lot of battery but requires sync partners to be online. Please note: This may leave incomplete temporary files behind until the next scheduled sync takes place.</string>
+    <string name="run_on_time_schedule_title">Uruchom zgodnie z harmonogramem</string>
+    <string name="run_on_time_schedule_summary">Włączenie tej opcji sprawi, że będą wykonywane próby synchronizacji w skonfigurowanych odstępach czasowych, jeżeli warunki uruchaiania zostaną spełnione, a ostatnia synchronizacja została wykonana dawniej, niż godzinę temu. Ta opcja może oszczędzić dużo energii baterii, ale wymaga, by urządzenia synchronizowane były dostępne. Zauważ proszę, że to ustawienie może skutkować niekompletnymi plikami tymczasowymi do czasu wykonania kolejnej synchronizacji przewidzianej harmonogramem.</string>
 
-    <string name="sync_duration_minutes_title">Duration of the sync cycle</string>
-    <string name="sync_duration_minutes_summary">%1$s minutes</string>
+    <string name="sync_duration_minutes_title">Odstęp czasowy między kolejnymi synchronizacjami</string>
+    <string name="sync_duration_minutes_summary">%1$s minut</string>
 
     <!-- Preferences - Behaviour -->
     <string name="behaviour_autostart_title">Autostart</string>
-    <string name="behaviour_autostart_summary">Start app automatically on operating system startup.</string>
+    <string name="behaviour_autostart_summary">Uruchamiaj aplikację po każdym restarcie urządzenia.</string>
 
-    <string name="use_root_title">Synchronizuje zawartość z uprawnieniami użytkownika Superuser</string>
+    <string name="use_root_title">Synchronizuje zawartość jako superuser</string>
 
-    <string name="use_root_summary">Running Syncthing as root allows it to write to folders Android normally restricts to be readonly accessed. Use this feature with caution.</string>
+    <string name="use_root_summary">Uruchamianie Syncthing jako root pozwala na zapis do folderów, które system Android w zwykłych okolicznościach udostępnia jako tylko do odczytu. Używaj tego ustawienia ostrożnie.</string>
 
-    <string name="bind_network_title">Bind to active network</string>
-    <string name="bind_network_summary">Force to use WiFi even if there is no internet connection. If disabled, Syncthing may use mobile data in this case.</string>
+    <string name="bind_network_title">Powiąż z aktywną siecią</string>
+    <string name="bind_network_summary">Wymuś użycie Wi-Fi, nawet gdy nie ma połączenia z internetem. Jeżeli ta opcja jest wyłączona, to Syncthing może używać mobilnego transferu danych.</string>
 
-    <string name="expert_mode_title">Expert mode</string>
+    <string name="expert_mode_title">Tryb eksperta</string>
 
-    <string name="expert_mode_summary">Enabling this option will show advanced configuration options. You should have a look at the Syncthing Docs first to make sure you know how to use them correctly. Incorrect settings may cause battery drain, system resource exhaustion or incomplete synchronization.</string>
+    <string name="expert_mode_summary">Włączenie tej opcji wyświetli zaawansowane opcje konfiguracyjne. Zanim dokonasz zmian, powinieneś przeczytać dokumentację Syncthing, by upewnić się, że wykonane zmiany będą prawidłowe. Nieprawidłowe ustawienia konfiguracyjne mogą spowodować drenowanie baterii, ponadnormatywne użycie zasobów systemu lub niekompletną synchronizację.</string>
 
-    <string name="preference_language_title">Language</string>
+    <string name="preference_language_title">Język</string>
 
-    <string name="preference_language_summary">Change the app language</string>
+    <string name="preference_language_summary">Zmień język aplikacji</string>
 
-    <string name="pref_language_default">Default Language</string>
+    <string name="pref_language_default">Domyślny język aplikacji</string>
 
     <string-array name="folder_types">
-        <item>Send &amp; Receive</item>
-        <item>Send Only</item>
-        <item>Receive Only</item>
-        <item>Receive Encrypted</item>
+        <item>Wyślij i odbierz</item>
+        <item>Tylko wyślij</item>
+        <item>Tylko odbierz</item>
+        <item>Odbierz szyfrowany</item>
     </string-array>
 
     <string-array name="pull_order_types">
-        <item>Random</item>
-        <item>Alphabetic</item>
-        <item>Smallest First</item>
-        <item>Largest First</item>
-        <item>Oldest First</item>
-        <item>Newest First</item>
+        <item>Losowo</item>
+        <item>Alfabetycznie</item>
+        <item>Od najmniejszych</item>
+        <item>Od największych</item>
+        <item>Od najstarszych</item>
+        <item>Od najnowszych</item>
     </string-array>
 
     <string-array name="versioning_types">
         <item>Żaden</item>
-        <item>Śmientik</item>
+        <item>Śmietnik</item>
         <item>Proste</item>
         <item>Rozszerzone</item>
         <item>Zewnętrzne</item>
@@ -692,18 +693,18 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="dialog_confirm_import">Zaimportować nowe ustawienia? Istniejące pliki zostaną zastąpione.</string>
 
     <!-- Toast shown after config was exported -->
-    <string name="config_export_successful">Config was exported to %1$s</string>
-    <string name="config_export_failed">Config export failed, check logcat output.</string>
+    <string name="config_export_successful">Ustawienia zostały wyeksportowane do %1$s</string>
+    <string name="config_export_failed">Eksport ustawień zakończony niepowodzeniem, sprawdź logi wyjściowe.</string>
 
-    <string name="import_config">Import Configuration</string>
+    <string name="import_config">Importuj ustawienia</string>
 
     <!-- Toast shown after config was imported -->
-    <string name="config_imported_successful">Config was imported</string>
-    <string name="config_import_failed">Config import failed, make sure files are in %1$s</string>
+    <string name="config_imported_successful">Ustawienia zostały zaimportowane</string>
+    <string name="config_import_failed">Import ustawień zakończony niepowodzeniem, upewnij się, że pliki znajdują się w %1$s</string>
 
-    <string name="dialog_settings_restart_app_title">Restart required</string>
+    <string name="dialog_settings_restart_app_title">Wymagane ponowne uruchomienie</string>
 
-    <string name="dialog_settings_restart_app_question">Changing this option requires an immediate restart of the app. All other changes will be discarded. Continue?</string>
+    <string name="dialog_settings_restart_app_question">Zmiana tej opcji wymaga niezwłocznego ponownego uruchomienia aplikacji. Wszelkie inne zmiany będą odrzucone. Kontynuować?</string>
 
     <!-- Title for the preference to set STTRACE parameters -->
     <string name="sttrace_title">Opcje STTRACE</string>
@@ -717,35 +718,34 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="st_reset_database_title">Przywróć pierwotny stan bazy danych</string>
 
     <!-- Syncthing was reset -->
-    <string name="st_reset_database_question">This action should only be performed based on a recommendation from our support team.
-        \nAre you sure you want to clear Syncthing\'s database?
+    <string name="st_reset_database_question">Ta akcja powinna być wykonywana wyłącznie na podstawie zalecenia naszego supportu.
+        \nCzy jesteś pewny, że chcesz wyczyścić bazę danych aplikacji Syncthing?
     </string>
 
     <!-- Syncthing was reset -->
-    <string name="st_reset_database_done">Successfully reset Syncthing\'s database</string>
+    <string name="st_reset_database_done">Baza danych aplikacji Syncthing została zresetowana.</string>
 
     <!-- Title for the preference to reset Syncthing indexes -->
-    <string name="st_reset_deltas_title">Reset Delta Indexes</string>
+    <string name="st_reset_deltas_title">Resetowanie indeksów różnicowych</string>
 
     <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_question">This action should only be performed based on a recommendation from our support team.
-        \nAre you sure you want to clear Syncthing\'s delta indexes?
+    <string name="st_reset_deltas_question">Ta akcja powinna być wykonywana wyłącznie na podstawie zalecenia naszego supportu.
+        \nCzy jesteś pewny, że chcesz wyczyścić indeksy różnicowe aplikacji Syncthing?
     </string>
 
     <!-- Syncthing was reset -->
-    <string name="st_reset_deltas_done">Successfully reset Syncthing\'s delta indexes</string>
-
-    <string name="category_about">About</string>
-
-    <string name="verbose_log_title">Verbose log</string>
-
-    <string name="verbose_log_summary">Enabling this option will help to generate debug logs at a very detailed level.</string>
-
-    <string name="log_to_file_title">Log to file</string>
-
-    <string name="log_to_file_summary">The output of SyncthingNative will be written to file.</string>
+    <string name="st_reset_deltas_done">Indeksy różnicowe aplikacji Syncthing zostały zresetowane.</string>
 
     <string name="category_about">O programie</string>
+
+    <string name="verbose_log_title">\"Gadatliwe\" logi</string>
+
+    <string name="verbose_log_summary">Włączenie tej opcji umożliwi wygenerowanie logów o wysokim poziomie szczegółowości.</string>
+
+    <string name="log_to_file_title">Loguj do pliku </string>
+
+    <string name="log_to_file_summary">Logi wyjściowe SyncthingNative zostaną zapisane do pliku.</string>
+
 
     <!-- Settings item that opens the log activity -->
     <string name="open_log">Otwórz dziennik</string>
@@ -753,10 +753,10 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- Summary for the log activity -->
     <string name="open_log_summary">Wyświetla dzienniki Syncthing oraz Androida</string>
     <!-- Settings item that opens issue tracker -->
-    <string name="report_issue_title">Report Issue</string>
+    <string name="report_issue_title">Zgłoś błąd</string>
 
     <!-- Summary for the issue tracker settings item -->
-    <string name="open_issue_tracker_summary">Open the Syncthing-Fork issue tracker at %1$s</string>
+    <string name="open_issue_tracker_summary">Otwiera serwis zgłaszania błędów Syncthing-Fork %1$s</string>
 
     <!-- URL of the issue tracker -->
     <string name="issue_tracker_url" translatable="false">https://github.com/Catfriend1/syncthing-android/issues</string>
@@ -791,13 +791,13 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
 
     <!-- Activity title -->
-    <string name="folder_picker_title">Folder Picker</string>
+    <string name="folder_picker_title">Otwórz folder</string>
 
     <!-- Storage path overview -->
-    <string name="advanced_storage_path_overview">Advanced storage path overview</string>
+    <string name="advanced_storage_path_overview">Zaawansowane przeglądanie ścieżki dostępu</string>
 
     <!-- Current path -->
-    <string name="current_path">Current Path: %1$s</string>
+    <string name="current_path">Bieżąca ścieżka dostępu: %1$s</string>
 
     <!-- ListView empty text -->
     <string name="directory_empty">Katalog jest pusty</string>
@@ -808,10 +808,10 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- Menu item to select the current folder -->
     <string name="select_folder">Wybierz katalog</string>
 
-    <string name="create_folder_failed">Failed to create folder</string>
+    <string name="create_folder_failed">Próba utworzenia folderu zakończona niepowodzeniem</string>
 
     <!-- Menu item to go up to parent folder -->
-    <string name="folder_go_up">Go up</string>
+    <string name="folder_go_up">W górę</string>
 
     <!-- LogActivity -->
 
@@ -828,13 +828,13 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="retrieving_logs">Uzyskiwanie dzienników…</string>
 
     <!-- Title of the "share log" menu button -->
-    <string name="share_title">Share</string>
+    <string name="share_title">Udostępnianie</string>
 
     <!-- ShareActivity -->
 
 
     <!-- Toast if user didn't complete the welcome wizard yet -->
-    <string name="complete_welcome_wizard_first">First, launch the app from the app drawer and complete the welcome wizard before sharing files.</string>
+    <string name="complete_welcome_wizard_first">Przed udostępnianiem plików uruchom aplikację i ukończ kreatora konfiguracji początkowej.</string>
 
     <!-- Title of the "share" activity -->
     <string name="share_activity_title">Zapisz w Syncthing</string>
