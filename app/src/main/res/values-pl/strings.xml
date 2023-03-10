@@ -109,7 +109,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <string name="exception_known_bug_notice">Aplikacja napotkała na znany błąd, który nie został jeszcze naprawiony. Zobacz %1$s/%2$s, by poznać więcej szczegółów. Prosimy o dostarczenie nam precyzyjnej informacji, co działo się przed wystąpieniem błędu. </string>
 
     <!-- Title of the exit app when running as a service confirmation dialog -->
-    <string name="dialog_exit_while_running_as_service_title">Potwierdź zamknięcie aplikacji.p</string>
+    <string name="dialog_exit_while_running_as_service_title">Potwierdź zamknięcie aplikacji</string>
     <string name="dialog_exit_while_running_as_service_message">Do rozważenia: ustawiono automatyczne włączanie aplikacji po uruchomieniu urządzenia. Z tego powodu monitoruje ona ustawione warunki i synchronizuje pliki w tle, gdy warunki są spełnione. Manualne zamknięcie aplikacji powinno się wykonywać wyłącznie, gdy powoduje ona problemy. Zamiast tego, zdezaktywuj \'Automatycznie włączaj aplikację po uruchomieniu urządzenia\' w ustawieniach. Czy na pewno chcesz wyłączyć aplikację do czasu ponownego uruchomienia urządzenia?</string>
 
     <!-- Title of the "add folder" menu action -->
@@ -138,7 +138,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
     <string name="device_rejected">Urządzenie \"%1$s\" chce się połączyć</string>
 
-    <string name="folder_rejected">Urządzenie \"%1$s\" chce udostępniać folder \"%2$s\"</string>
+    <string name="folder_rejected">Urządzenie \"%1$s\" chce udostępnić folder \"%2$s\"</string>
 
     <!-- StateDialogActivity -->
 
@@ -168,7 +168,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- Override Changes Confirmation Dialog -->
     <string name="override_changes_question">To wycofa wszystkie zmiany wykonane na innych urządzeniach udostępniających ten folder. Kontynuować?</string>
 
-    <string name="revert_local_changes">Anuluj lokalne zmiany</string>
+    <string name="revert_local_changes">Odwróć zmiany lokalne</string>
 
     <string name="delete_unexpected_items">Kasowanie niespodziewanych pozycji</string>
 
@@ -176,12 +176,12 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
     <!-- Revert Local Changes Confirmation Dialog -->
     <string name="revert_local_changes_question">To spowoduje wycofanie wszystkich zmian wykonanych na tym urządzeniu w tym folderze. Kontynuować?</string>
 
-    <string name="open_file_manager">Otwórz managera plików</string>
+    <string name="open_file_manager">Otwórz menedżer plików</string>
     <string name="open_file_with">Otwórz plik w</string>
-    <string name="open_file_no_compatible_app">Nie znaleziono aplikacji właściwej do otwarcia pliku.</string>
+    <string name="open_file_no_compatible_app">Nie znaleziono aplikacji do otwarcia tego pliku.</string>
 
     <!-- Suggest File Manager App Dialog -->
-    <string name="suggest_file_manager_app_dialog_title">Nie znaleziono zgodnego managera plików</string>
+    <string name="suggest_file_manager_app_dialog_title">Nie znaleziono kompatybilnego manadżera plików</string>
     <string name="suggest_file_manager_app_dialog_text">Polecamy zainstalowanie open-source'owego managera plików \'Material Files\'. Czy chcesz otworzyć jego stronę w sklepie z aplikacjami?</string>
 
     <!-- DeviceListFragment -->
@@ -262,7 +262,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
     <string name="restart">Uruchom ponownie</string>
 
-    <string name="dialog_confirm_restart">Czy chcesz ponownie uruchomić Syncthing?</string>
+    <string name="dialog_confirm_restart">Uruchomić program ponownie?</string>
 
     <!-- FolderActivity -->
 
@@ -719,7 +719,7 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
     <!-- Syncthing was reset -->
     <string name="st_reset_database_question">Ta akcja powinna być wykonywana wyłącznie na podstawie zalecenia naszego supportu.
-        \nCzy jesteś pewny, że chcesz wyczyścić bazę danych aplikacji Syncthing?
+        \nCzy jesteś pewny, że chcesz przywrócić stan początkowy bazy danych aplikacji Syncthing?
     </string>
 
     <!-- Syncthing was reset -->
@@ -770,22 +770,22 @@ Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
     <!-- Menu item to donate -->
     <!-- Title of the preference showing upstream version name -->
-    <string name="syncthing_version_title">Syncthing Version</string>
+    <string name="syncthing_version_title">Wersja Syncthing</string>
 
     <!-- Title of the preference showing this app's version name -->
-    <string name="app_version_title">Syncthing-Fork Wrapper Version</string>
+    <string name="app_version_title">Wersja nakładki Syncthing-Fork</string>
 
     <!-- Title of the preference showing the REST API key -->
-    <string name="syncthing_api_key">Syncthing API Key (click to copy)</string>
+    <string name="syncthing_api_key">Klucz API Syncthing (kliknij by skopiować)</string>
 
     <!-- Shown when the API key is copied to the clipboard -->
-    <string name="api_key_copied_to_clipboard">Syncthing API key copied to clipboard</string>
+    <string name="api_key_copied_to_clipboard">Klucz API Syncthing skopiowano do schowka</string>
 
     <!-- Title of the preference showing database size -->
-    <string name="syncthing_database_size">Syncthing Database Size</string>
+    <string name="syncthing_database_size">Rozmiar bazy danych Syncthing</string>
 
     <!-- Title of the preference showing the OS open file limit -->
-    <string name="os_open_file_limit">Android Open File Limit</string>
+    <string name="os_open_file_limit">Limit liczby otwartych plików systemu Android</string>
 
     <!-- FolderPickerAcitivity -->
 
