@@ -17,7 +17,7 @@
 
     <!-- Welcome wizard -->
     <!-- Slide "Introduction" -->
-    <string name="introduction">Informacje wstępne</string>
+    <string name="introduction">Wprowadzenie</string>
     <string name="welcome_text">Syncthing jest wolną i otwartą aplikacją do sychronizacji plików. Aby współdzielić dane z innymi urządzeniami, musisz dodać ich unikalne identyfikatory do listy urządzeń. Następnie będziesz mógł wybrać foldery do współdzielenia z konkretnym urządzeniami.
 Prosimy o zgłaszanie napotkanych problemów przez Github.</string>
 
